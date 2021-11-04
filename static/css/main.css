@@ -1,0 +1,47 @@
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+* {
+  color: white;
+  text-shadow: 0 0 5px #C8C8C8;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+div {
+  vertical-align: 20%;
+  background-color: #002F36;
+  width: 50%;
+  height: 50%;
+  padding: 25px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+input {
+  width: 50%;
+  border-width:0px;
+  border:none;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+#prompt {
+  color: white;
+}
+
+#indent {
+  margin-left: 5%;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
